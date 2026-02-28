@@ -248,13 +248,11 @@ print(response.json())
 - **Architecture**: 3-layer LSTM with attention
 - **Training Data**: 3+ years of historical consumption
 - **MAPE**: 8.7%
-- **Training Time**: ~4 hours
 
 ### Transformer Model
 - **Architecture**: Encoder-Decoder with multi-head attention
 - **Seq2Seq**: Sequence-to-sequence prediction
 - **MAPE**: 7.6%
-- **Training Time**: ~5 hours
 
 ### Ensemble (Stacking)
 - **Meta-Learner**: XGBoost
