@@ -1,13 +1,13 @@
-# 🔌 Smart Grid AI - Energy Forecasting & Anomaly Detection
+#  Smart Grid AI - Energy Forecasting & Anomaly Detection
 
 An advanced AI-powered system for predicting electricity consumption and detecting anomalies in smart grids with high accuracy and real-time monitoring.
 
-**Status**: ✅ **PRODUCTION LIVE** (since Feb 2, 2026)  
+**Status**:  **PRODUCTION LIVE** (since Feb 2, 2026)  
 **Uptime**: 99.97% | **Accuracy**: 4.32% MAPE | **ROI**: 81.6% (Year 1)
 
 ---
 
-## 📊 Overview
+##  Overview
 
 Smart Grid AI is a production-grade energy management system that uses ensemble deep learning models (LSTM + Transformer) to forecast electricity consumption and detect anomalies with high precision. The system is currently live and generating **$147,200 in annual savings** through optimized energy consumption management.
 
@@ -25,7 +25,7 @@ Smart Grid AI is a production-grade energy management system that uses ensemble 
 
 ---
 
-## ⚡ Key Features
+##  Key Features
 
 - **Ensemble Forecasting**: LSTM + Transformer neural networks for accurate consumption predictions
 - **Real-Time Anomaly Detection**: 92.5% detection accuracy with automated alerting
@@ -37,7 +37,7 @@ Smart Grid AI is a production-grade energy management system that uses ensemble 
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -64,7 +64,7 @@ Smart Grid AI is a production-grade energy management system that uses ensemble 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 smart-grid-ai/
@@ -109,7 +109,7 @@ smart-grid-ai/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -162,7 +162,7 @@ This starts:
 
 ---
 
-## � API Documentation
+##  API Documentation
 
 ### Available Endpoints
 
@@ -214,7 +214,7 @@ print(response.json())
 
 ---
 
-## 🎯 Features & Capabilities
+##  Features & Capabilities
 
 ### Forecasting
 - **Ensemble Models**: LSTM + Transformer combination
@@ -242,7 +242,7 @@ print(response.json())
 
 ---
 
-## 📊 Model Details
+##  Model Details
 
 ### LSTM Model
 - **Architecture**: 3-layer LSTM with attention
@@ -258,7 +258,7 @@ print(response.json())
 - **Meta-Learner**: XGBoost
 - **Base Models**: LSTM + Transformer
 - **Combination**: Weighted ensemble
-- **MAPE**: 4.32% ⭐
+- **MAPE**: 4.32% 
 - **R²**: 0.886
 
 ### Anomaly Detection
@@ -269,7 +269,7 @@ print(response.json())
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 ```
 Framework & Libraries:
@@ -303,7 +303,7 @@ Development:
 
 ---
 
-## 📈 Production Performance
+##  Production Performance
 
 ### Live Metrics (as of Feb 2, 2026)
 - **Daily Predictions**: 168,640 forecasts/day
@@ -313,16 +313,8 @@ Development:
 - **Data Processing**: Real-time (hourly updates)
 - **System Uptime**: 99.97% (99.5 hours downtime/year)
 
-### Business Impact (Year 1)
-- **Cost Savings**: $147,200
-- **ROI**: 81.6%
-- **Payback Period**: 6.2 months
-- **5-Year NPV**: $404,115
-- **Monthly Benefit**: ~$12,267 (baseline)
 
----
-
-## 📚 Documentation
+##  Documentation
 
 All comprehensive documentation is located in `outputs/9_documentation/`:
 
@@ -335,7 +327,7 @@ All comprehensive documentation is located in `outputs/9_documentation/`:
 
 ---
 
-## 🔄 Deployment Options
+##  Deployment Options
 
 ### Local Development
 ```bash
@@ -426,31 +418,16 @@ mypy outputs/8_code_models/
 - Check prediction queue length
 - Verify database connections are not saturated
 
----
-
-## 🤝 Support & Community
-
-### Getting Help
-- **Issues**: Report bugs on [GitHub Issues](https://github.com/DnyaneshwariKumthekar/smart-grid-ai/issues)
-- **Discussions**: Ask questions on [GitHub Discussions](https://github.com/DnyaneshwariKumthekar/smart-grid-ai/discussions)
-- **Documentation**: Check [docs](outputs/9_documentation/) for detailed guides
-
-### Reporting Issues
-When reporting issues, please include:
-1. Steps to reproduce the problem
-2. Expected vs actual behavior
-3. System information (OS, Python version)
-4. Error logs or stack traces
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## ✨ Author
+##  Author
 
 **Dnyaneshwari Kumthekar**  
 - GitHub: [@DnyaneshwariKumthekar](https://github.com/DnyaneshwariKumthekar)
@@ -458,18 +435,18 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 🎯 Acknowledgments
+##  Acknowledgments
 
 This project was developed as a production energy management system utilizing state-of-the-art deep learning techniques for time-series forecasting and anomaly detection.
 
 ---
 
-## 📞 Contact & Information
+##  Contact & Information
 
 - **Project Status**: Production Live (Feb 2, 2026)
 - **System Uptime**: 99.97%
 - **Current Performance**: Exceeding all targets
-- **Business Impact**: $147,200 annual savings
+  
 
 For deployment questions, operational support, or integration inquiries, please visit the [documentation](outputs/9_documentation/) or create an issue on GitHub.
 
