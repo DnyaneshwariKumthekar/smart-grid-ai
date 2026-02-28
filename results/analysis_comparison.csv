@@ -1,0 +1,2 @@
+Model,MAPE,RMSE,MAE,R²,Mean_Error,Std_Dev
+MOE,0.31%,1385 kW,1285 kW,0.9818,119 kW,90 kW

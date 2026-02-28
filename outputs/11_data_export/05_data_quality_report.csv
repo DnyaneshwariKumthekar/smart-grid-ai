@@ -1,0 +1,8 @@
+Metric,Value
+Total Records,"8,760"
+Date Range,2024-01-01 to 2024-12-30
+Missing Values,359 (0.00%)
+Duplicates,0
+Outliers (3σ),77
+Data Types,"datetime64[ns], float64, int64, bool, object"
+File Sizes,CSV: 1.1 MB

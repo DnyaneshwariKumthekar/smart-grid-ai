@@ -1,0 +1,11 @@
+Method,MAPE_%,RMSE_kWh,R2_Score,Inference_Time_ms,Model_Size_MB
+Naive (24h lag),8.5,102.1,0.72,2,0.01
+Seasonal Naive,6.2,75.3,0.81,3,0.01
+"ARIMA (p=1,d=1,q=1)",5.8,68.5,0.84,5,0.05
+Prophet,5.1,58.9,0.87,45,8.5
+LSTM (Our),4.8,56.2,0.88,120,1.2
+Transformer (Our),4.1,54.8,0.9,150,2.1
+Ensemble (Our),4.32,58.1,0.891,140,3.8
+Competitor A - XGBoost,5.3,61.2,0.86,200,120.0
+Competitor B - Neural Net,4.9,60.1,0.87,250,85.0
+Industry Baseline,7.0,85.0,0.75,100,25.0

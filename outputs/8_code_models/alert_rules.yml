@@ -1,0 +1,51 @@
+# Alert Rules for Smart Grid AI
+# Save as: alert_rules.yml
+
+groups:
+  - name: smartgrid_alerts
+    interval: 30s
+    rules:
+      - alert: APIDown
+        expr: up{job="smartgrid-api"} == 0
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Smart Grid API is DOWN"
+          description: "API has been unavailable for more than 5 minutes"
+
+      - alert: HighForecastError
+        expr: forecast_mape > 8
+        for: 1h
+        labels:
+          severity: warning
+        annotations:
+          summary: "Forecast accuracy degraded"
+          description: "MAPE is {{ $value }}%, target is < 5%"
+
+      - alert: LowAnomalyDetection
+        expr: anomaly_detection_rate < 85
+        for: 1h
+        labels:
+          severity: warning
+        annotations:
+          summary: "Anomaly detection rate low"
+          description: "Rate is {{ $value }}%, target is > 90%"
+
+      - alert: HighResponseTime
+        expr: api_response_time_ms > 500
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "API response time high"
+          description: "Response time is {{ $value }}ms, target is < 200ms"
+
+      - alert: LowUptime
+        expr: system_uptime_percent < 99
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "System uptime below target"
+          description: "Uptime is {{ $value }}%, target is > 99.9%"

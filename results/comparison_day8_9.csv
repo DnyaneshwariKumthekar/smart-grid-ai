@@ -1,0 +1,4 @@
+name,samples,mape,rmse,mae,r2
+Synthetic (Quick Test),1000,31.97,170.67,142.62,-0.2744
+Real-World (50k sample),1943,2.35,355.59,233.29,0.9992
+"Full Real-World (100k sample, 4-year data)",20000,17.204863563791072,1905.6854471754398,1241.8388369973504,0.9655932832310159

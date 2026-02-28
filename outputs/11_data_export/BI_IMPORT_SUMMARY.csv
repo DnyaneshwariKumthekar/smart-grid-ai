@@ -1,0 +1,11 @@
+Property,Value
+Total Records,"8,760"
+Date Range,2024-01-01 00:00:00 to 2024-12-30 23:00:00
+Consumption Mean (kWh),1000.91
+Consumption Std Dev (kWh),169.52
+Consumption Min (kWh),429.05
+Consumption Max (kWh),1952.05
+Features,11
+Missing Values (%),0.37%
+File Format,CSV (Universal)
+Recommended Tool,Tableau / Power BI / Looker

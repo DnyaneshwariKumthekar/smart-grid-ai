@@ -1,0 +1,12 @@
+Column_Name,Data_Type,Description,Missing_Values,Unique_Values
+Timestamp,datetime64[ns],Timestamp of measurement (UTC),0,8760
+Consumption_kWh,float64,Energy consumption in kWh,0,8760
+Hour,int64,Hour of day (0-23),0,24
+DayOfWeek,int64,"Day of week (0-6, Monday-Sunday)",0,7
+Month,int64,Month (1-12),0,12
+IsWeekend,bool,Binary indicator for weekend,0,2
+Season,object,Season category,0,4
+Lagged_1h,float64,Consumption 1 hour ago,1,8759
+Lagged_24h,float64,Consumption 24 hours ago,24,8736
+Rolling_7d_Mean,float64,Mean of past 7 days,167,8593
+Rolling_7d_Std,float64,Std dev of past 7 days,167,8593

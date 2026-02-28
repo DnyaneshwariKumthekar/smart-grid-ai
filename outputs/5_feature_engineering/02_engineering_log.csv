@@ -1,0 +1,13 @@
+Feature_Name,Engineering_Type,Description,Null_Count,Unique_Values
+Hour_of_Day,Temporal Extraction,Hour of the day (0-23),0,24
+Day_of_Week,Temporal Extraction,Day of week (0-6),0,7
+Month,Temporal Extraction,Month (1-12),0,12
+Is_Weekend,Temporal Feature,Binary weekend indicator,0,2
+Season,Temporal Feature,Seasonal categorical (Winter/Spring/Summer/Fall),0,4
+Lagged_1h,Lagged Feature,Consumption 1 hour ago,0,Varies
+Lagged_24h,Lagged Feature,Consumption 24 hours ago,0,Varies
+Rolling_7d_Mean,Rolling Statistics,Mean of past 7 days,0,Varies
+Rolling_7d_Std,Rolling Statistics,Std of past 7 days,0,Varies
+Trend,Trend Decomposition,Linear trend component,0,Varies
+Fourier_Sin_24h,Fourier Feature,Sine component (24h cycle),0,Varies
+Fourier_Cos_24h,Fourier Feature,Cosine component (24h cycle),0,Varies

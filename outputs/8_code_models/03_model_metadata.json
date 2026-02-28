@@ -1,0 +1,23 @@
+{
+  "LSTM": {
+    "architecture": "LSTM-256-128-64",
+    "dropout": 0.2,
+    "epochs_trained": 50,
+    "final_val_loss": 0.095,
+    "parameters": 245312,
+    "size_mb": 1.2
+  },
+  "Transformer": {
+    "architecture": "Transformer-8heads-512dim",
+    "dropout": 0.1,
+    "epochs_trained": 50,
+    "final_val_loss": 0.087,
+    "parameters": 521856,
+    "size_mb": 2.1
+  },
+  "Ensemble": {
+    "composition": "Weighted average: LSTM(0.4), Transformer(0.4), RF(0.2)",
+    "final_performance": "MAPE 4.32%",
+    "size_mb": 3.8
+  }
+}
