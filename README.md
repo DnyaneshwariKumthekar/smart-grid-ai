@@ -9,7 +9,7 @@ An advanced AI-powered system for predicting electricity consumption and detecti
 
 ##  Overview
 
-Smart Grid AI is a production-grade energy management system that uses ensemble deep learning models (LSTM + Transformer) to forecast electricity consumption and detect anomalies with high precision. The system is currently live and generating **$147,200 in annual savings** through optimized energy consumption management.
+Smart Grid AI is a production-grade energy management system that uses ensemble deep learning models (LSTM + Transformer) to forecast electricity consumption and detect anomalies with high precision, helping optimize energy management and reduce costs.
 
 ### Key Performance Metrics
 
@@ -20,8 +20,6 @@ Smart Grid AI is a production-grade energy management system that uses ensemble 
 | **API Response Time** | 145ms | < 200ms | ✅ Exceeding |
 | **System Uptime** | 99.97% | > 99.9% | ✅ Exceeding |
 | **Predictions/Minute** | ~117 | — | ✅ Operational |
-| **Year 1 ROI** | 81.6% | — | ✅ Strong |
-| **5-Year NPV** | $404,115 | — | ✅ Viable |
 
 ---
 
